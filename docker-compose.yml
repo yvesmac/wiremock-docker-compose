@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  mockserver:
+    container_name: wiremock
+    image: wiremock/wiremock:2.33.2
+    ports:
+      - 8282:8080
+    volumes:
+      - ./wiremock:/home/wiremock

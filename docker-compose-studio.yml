@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  mockstudio:
+      container_name: mockstudio
+      image: up9inc/wiremock-studio:2.32.0-18
+      ports:
+        - 9000:9000
+        - 8000-8100:8000-8100
+      volumes:
+      - ./wiremock:/home/wiremock

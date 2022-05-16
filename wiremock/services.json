@@ -1,0 +1,8 @@
+{
+  "services" : [ {
+    "id" : "7zy3r",
+    "name" : "rest-example",
+    "port" : 8000,
+    "rootDir" : "rest-example"
+  } ]
+}
